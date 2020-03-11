@@ -62,17 +62,13 @@ main (int argc, char *argv[])
   serverApps.Stop (Seconds (10.0));
 
   UdpEchoClientHelper echoClient (interfaces.GetAddress (1), 9);
-  echoClient.SetAttribute ("MaxPackets", UintegerValue (nPackets));
+  echoClient.SetAttribute ("MaxPackets", UintegerValue (1));
   echoClient.SetAttribute ("Interval", TimeValue (Seconds (1.0)));
   echoClient.SetAttribute ("PacketSize", UintegerValue (1024));
 
   ApplicationContainer clientApps = echoClient.Install (nodes.Get (0));
   clientApps.Start (Seconds (2.0));
   clientApps.Stop (Seconds (10.0));
-  
-  AsciiTraceHelper ascii;
-pointToPoint.EnableAsciiAll(ascii.CreateFileStream("myfirst.tr"));
-pointToPoint.EnablePcapAll("myfirst");
 
   Simulator::Run ();
   Simulator::Destroy ();

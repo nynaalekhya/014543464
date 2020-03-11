@@ -6,6 +6,7 @@ def build(bld):
     module.source = [
         'model/propagation-delay-model.cc',
         'model/propagation-loss-model.cc',
+        'model/lognormal-shadowing-loss-model.cc',
         'model/jakes-propagation-loss-model.cc',
         'model/jakes-process.cc',
         'model/cost231-propagation-loss-model.cc',
@@ -29,6 +30,7 @@ def build(bld):
     headers.source = [
         'model/propagation-delay-model.h',
         'model/propagation-loss-model.h',
+        'model/lognormal-shadowing-loss-model.h',
         'model/jakes-propagation-loss-model.h',
         'model/jakes-process.h',
         'model/propagation-cache.h',

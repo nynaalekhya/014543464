@@ -7186,7 +7186,7 @@
   },
   {
     "directory": "/home/alex/workspace/ns-allinone-3.30/ns-3.30/build",
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../scratch/myfirst.cc -c -o/home/alex/workspace/ns-allinone-3.30/ns-3.30/build/scratch/myfirst.cc.5.o",
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../scratch/myfirst.cc -c -o/home/alex/workspace/ns-allinone-3.30/ns-3.30/build/scratch/myfirst.cc.6.o",
     "file": "../scratch/myfirst.cc"
   },
   {
@@ -7198,5 +7198,15 @@
     "directory": "/home/alex/workspace/ns-allinone-3.30/ns-3.30/build",
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../scratch/mythird.cc -c -o/home/alex/workspace/ns-allinone-3.30/ns-3.30/build/scratch/mythird.cc.2.o",
     "file": "../scratch/mythird.cc"
+  },
+  {
+    "directory": "/home/alex/workspace/ns-allinone-3.30/ns-3.30/build",
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -Isrc/propagation -I../src/propagation -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../src/propagation/model/lognormal-shadowing-loss-model.cc -c -o/home/alex/workspace/ns-allinone-3.30/ns-3.30/build/src/propagation/model/lognormal-shadowing-loss-model.cc.1.o",
+    "file": "../src/propagation/model/lognormal-shadowing-loss-model.cc"
+  },
+  {
+    "directory": "/home/alex/workspace/ns-allinone-3.30/ns-3.30/build",
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -I/usr/include/libxml2 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_SQLITE3=1 -DHAVE_IF_TUN_H=1 -DHAVE_GSL=1 ../scratch/random-propagation-loss-distance-expt.cc -c -o/home/alex/workspace/ns-allinone-3.30/ns-3.30/build/scratch/random-propagation-loss-distance-expt.cc.5.o",
+    "file": "../scratch/random-propagation-loss-distance-expt.cc"
   }
 ]
